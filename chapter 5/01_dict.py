@@ -4,5 +4,9 @@ marks={
   "hermione": 95
  }
 
-# print(marks,type(marks))
-print(marks["harry"])
+# print(marks.keys())
+# print(marks["harry"])
+# print(marks.values())
+# marks.update({"Devendra":100})
+# print(marks)
+print(marks.get("harry"))
